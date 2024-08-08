@@ -5,10 +5,3 @@
 <p>Este es el resultado del Challenge - Encriptador de Texto, utilizando HTML5, CSS3 y JavaScript. Se trata del primer reto de la formación Oracle Next Education (ONE) de Oracle + Alura LATAM.
 
 El reto consiste en construir una página web que encripte y desencripte el texto ingresado por el usuario, permitiendo retornar el texto en su forma encriptada o desencriptada según sea el caso. El objetivo principal de este desafío es poner a prueba los conocimientos adquiridos durante los cursos de la Formación Principiante en Programación</p>
-
-<h2>Requisitos</h2>
-La letra "e" es convertida en "enter"
-La letra "i" es convertida en "imes"
-La letra "a" es convertida en "ai"
-La letra "o" es convertida en "ober"
-La letra "u" es convertida en "ufat"
