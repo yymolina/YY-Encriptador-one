@@ -1,0 +1,69 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador-One-Challenge</title>
+        <link rel="icon" type="image/jpg" href="./assets/img/logo.png" />
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body class="justificar-c d-flex">
+        <main class="principal d-flex justificar-e a-c alinear-e flex-w">
+            <section class="lado-encrip d-flex flex-c alinear-c justificar-e">
+                <!-- Logo -->
+                <div class="barra-logo d-flex a-c">
+                    <div class="contenedor-logo d-flex justificar-c alinear-c">
+                        <img src="./assets/img/logo.png" alt="Logo principal">
+                    </div>
+                </div>
+                <!-- Área de entrada de texto y botones -->
+                <div class="seccion-encrip d-flex flex-c a-c justificar-e">
+                    <div class="caja-encrip d-flex">
+                        <textarea class="texto-encrip color-azul-oscuro a-c bg-transparente sin-borde" id="texto-entrada-encrip" placeholder="Ingrese el texto aquí" rows="10"></textarea>
+                    </div>
+                    <div class="pie-encrip">
+                        <div class="d-flex alinear-c">
+                            <span class="icono-info color-blanco bg-gris d-flex justificar-c alinear-c">!</span>
+                            <p class="texto-info">Solo letras minúsculas y sin acentos</p>
+                        </div>
+                        <div class="botones-pie d-flex justificar-e">
+                            <button class="btn-azul d-flex justificar-c alinear-c" id="boton-encrip">Encriptar</button>
+                            <button class="btn-transparente d-flex justificar-c alinear-c" id="boton-desencrip">Desencriptar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Área de salida de texto encriptado -->
+            <section class="lado-desencrip d-flex">
+                <div class="d-flex flex-c justificar-c alinear-c">
+                    <div class="caja-texto-desencrip oculto d-flex flex-c justificar-e a-c" id="texto-encrip">
+                        <div class="texto-desencrip" id="texto-salida-desencrip"></div>
+                        <div class="botones-pie d-flex justificar-c">
+                            <button class="btn-transparente a-c d-flex justificar-c alinear-c" id="boton-copiar">Copiar</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-c justificar-c"id="d-encrip" >
+                        <div class="caja-img">
+                            <img src="./assets/img/persona.png" alt="Imagen dormida" class="img-d">
+                        </div>
+                        <div class="texto-info-dormir">
+                            <p class="titulo-info text-center color-gris-oscuro">Ningún mensaje fue encontrado</p>
+                            <p class="texto-mini text-center color-gris-medio">Ingresa el texto que deseas encriptar o desencriptar</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div>
+                    <p>Creado por Yeraldine Molina, 2024</p>
+                </div>
+            </footer>
+        </main>
+        <script src="assets/javascript/script.js"></script>
+    </body>        
+</html>
+
